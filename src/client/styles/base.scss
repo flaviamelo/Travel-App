@@ -54,7 +54,7 @@
 	height: 100px;
 }
 
-.section-result {
+.tripResult {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -84,7 +84,7 @@
 	}
 }
 
-.result-container {
+#result {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
@@ -98,7 +98,7 @@
 	padding-bottom: 10px;
 	width: 100%;
 	font-weight: 700;
-	color:  rgba(6, 51, 119, 0.884);
+	color: rgba(6, 51, 119, 0.884);
 }
 
 .card-container {
