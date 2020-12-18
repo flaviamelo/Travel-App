@@ -1,0 +1,2399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`verify clickHandler function displays the loader while waiting for the result from api 1`] = `
+<body>
+  
+          
+  <div
+    class="trip-form"
+  >
+    
+          
+    <div
+      class="form-container"
+    >
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="destination"
+        >
+          My trip to:
+        </label>
+        
+                  
+        <input
+          id="destination"
+          placeholder="Enter Location"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="start-date"
+        >
+          Departing:
+        </label>
+        
+                  
+        <input
+          class="flatpickr-input active"
+          id="start-date"
+          placeholder="DD/MM/YYYY"
+          readonly="readonly"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <button
+        class="trip-form-button"
+      >
+        
+                  Let's Go!!
+              
+      </button>
+      
+          
+    </div>
+    
+          
+    <div
+      class="my-trips"
+    >
+      
+          
+      <div
+        class="loader-container"
+      >
+        
+              
+        <div
+          class="wait-text"
+        >
+          Please wait..
+        </div>
+        
+              
+        <div
+          class="loader"
+        />
+        
+          
+      </div>
+          
+      
+    </div>
+    
+        
+  </div>
+    
+    
+</body>
+`;
+
+exports[`verify clickHandler function throws correct validation errors 1`] = `
+<body>
+  
+          
+  <div
+    class="trip-form"
+  >
+    
+          
+    <div
+      class="form-container"
+    >
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="destination"
+        >
+          My trip to:
+        </label>
+        
+                  
+        <input
+          id="destination"
+          placeholder="Enter Location"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="start-date"
+        >
+          Departing:
+        </label>
+        
+                  
+        <input
+          class="flatpickr-input active"
+          id="start-date"
+          placeholder="DD/MM/YYYY"
+          readonly="readonly"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <button
+        class="trip-form-button"
+      >
+        
+                  Let's Go!!
+              
+      </button>
+      
+          
+    </div>
+    
+          
+    <div
+      class="my-trips"
+    >
+      
+        
+      <div
+        class="error"
+      >
+        
+            Please enter valid values!
+        
+      </div>
+      
+    
+    </div>
+    
+        
+  </div>
+    
+    
+</body>
+`;
+
+exports[`verify current weather response 1`] = `
+<body>
+  
+          
+  <div
+    class="trip-form"
+  >
+    
+          
+    <div
+      class="form-container"
+    >
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="destination"
+        >
+          My trip to:
+        </label>
+        
+                  
+        <input
+          id="destination"
+          placeholder="Enter Location"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="start-date"
+        >
+          Departing:
+        </label>
+        
+                  
+        <input
+          class="flatpickr-input active"
+          id="start-date"
+          placeholder="DD/MM/YYYY"
+          readonly="readonly"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <button
+        class="trip-form-button"
+      >
+        
+                  Let's Go!!
+              
+      </button>
+      
+          
+    </div>
+    
+          
+    <div
+      class="my-trips"
+    >
+      
+          
+      <div
+        class="trip-item-container"
+      >
+        
+              
+        <div
+          class="trip-item-header"
+        >
+          
+                  
+          <div
+            class="flag"
+          >
+            
+                      
+            <img
+              alt=""
+              src="https://restcountries.eu/data/can.svg"
+            />
+            
+                  
+          </div>
+          
+                  
+          <div
+            class="taglines"
+          >
+            
+                      
+            <h2
+              class="header1"
+            >
+              <span
+                class="static"
+              >
+                My trip to: 
+              </span>
+              Ottawa, Canada
+            </h2>
+            
+                      
+            <h2
+              class="header2"
+            >
+              <span
+                class="static"
+              >
+                Departing: 
+              </span>
+              Saturday, December 19th 2020
+            </h2>
+            
+                  
+          </div>
+          
+              
+        </div>
+        
+          
+              
+        <div
+          class="trip-item"
+        >
+          
+                  
+          <div
+            class="location-image"
+          >
+            
+              
+            <img
+              alt=""
+              src="https://pixabay.com/get/52e6d1424c53a514f1dc846096293e7a1d37d9e65b4c704f752778d49f44cc59_640.jpg"
+            />
+            
+          
+          </div>
+          
+      
+                  
+          <div
+            class="location-info"
+          >
+            
+                      
+            <h2
+              class="header-with-background"
+            >
+              Fun Facts about Ottawa
+            </h2>
+            
+                      
+          
+            <ul
+              class="fun-facts"
+            >
+              
+              
+              <li>
+                Ottawa is located in Canada within the region of North America and subregion of Ontario
+              </li>
+              
+              
+              <li>
+                Its capital is Ottawa
+              </li>
+              
+              
+              <li>
+                Its total population is 37742154
+              </li>
+              
+              
+              <li>
+                Its currency is Canadian dollar and its symbol is $
+              </li>
+              
+              
+              <li>
+                Local language spoken is English/French and its native name is English/French
+              </li>
+              
+          
+            </ul>
+            
+      
+                      
+            <h2
+              class="header-with-background"
+            >
+              Today's weather at Ottawa
+            </h2>
+            
+                      
+          
+            <div
+              class="weather-item"
+            >
+              
+              
+              <div
+                class="weather-item-data"
+              >
+                
+                  
+                <div
+                  class="temp"
+                >
+                  
+                      
+                  <div
+                    class="label"
+                  >
+                    Temperature
+                  </div>
+                  
+                      
+                  <div
+                    class="value"
+                  >
+                    -9 
+                    <span
+                      class="celcius"
+                    >
+                      ℃
+                    </span>
+                  </div>
+                  
+                  
+                </div>
+                
+                  
+                <div
+                  class="temp"
+                >
+                  
+                      
+                  <div
+                    class="label"
+                  >
+                    Feels like
+                  </div>
+                  
+                      
+                  <div
+                    class="value"
+                  >
+                    -6.8 
+                    <span
+                      class="celcius"
+                    >
+                      ℃
+                    </span>
+                  </div>
+                  
+                  
+                </div>
+                
+              
+              </div>
+              
+              
+              <div
+                class="weather-item-desc"
+              >
+                
+                  
+                <span>
+                  Clear Sky
+                </span>
+                
+              
+              </div>
+              
+          
+            </div>
+            
+      
+                  
+          </div>
+          
+              
+        </div>
+        
+              
+          
+      </div>
+      
+      
+    </div>
+    
+        
+  </div>
+    
+    
+</body>
+`;
+
+exports[`verify forecasted weather response 1`] = `
+<body>
+  
+          
+  <div
+    class="trip-form"
+  >
+    
+          
+    <div
+      class="form-container"
+    >
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="destination"
+        >
+          My trip to:
+        </label>
+        
+                  
+        <input
+          id="destination"
+          placeholder="Enter Location"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <div
+        class="form-item"
+      >
+        
+                  
+        <label
+          for="start-date"
+        >
+          Departing:
+        </label>
+        
+                  
+        <input
+          class="flatpickr-input active"
+          id="start-date"
+          placeholder="DD/MM/YYYY"
+          readonly="readonly"
+          type="text"
+        />
+        
+              
+      </div>
+      
+              
+      <button
+        class="trip-form-button"
+      >
+        
+                  Let's Go!!
+              
+      </button>
+      
+          
+    </div>
+    
+          
+    <div
+      class="my-trips"
+    >
+      
+          
+      <div
+        class="trip-item-container"
+      >
+        
+              
+        <div
+          class="trip-item-header"
+        >
+          
+                  
+          <div
+            class="flag"
+          >
+            
+                      
+            <img
+              alt=""
+              src="https://restcountries.eu/data/can.svg"
+            />
+            
+                  
+          </div>
+          
+                  
+          <div
+            class="taglines"
+          >
+            
+                      
+            <h2
+              class="header1"
+            >
+              <span
+                class="static"
+              >
+                My trip to: 
+              </span>
+              Ottawa, Canada
+            </h2>
+            
+                      
+            <h2
+              class="header2"
+            >
+              <span
+                class="static"
+              >
+                Departing: 
+              </span>
+              Saturday, December 19th 2020
+            </h2>
+            
+                  
+          </div>
+          
+              
+        </div>
+        
+          
+              
+        <div
+          class="trip-item"
+        >
+          
+                  
+          <div
+            class="location-image"
+          >
+            
+              
+            <img
+              alt=""
+              src="https://pixabay.com/get/52e6d1424c53a514f1dc846096293e7a1d37d9e65b4c704f752778d49f44cc59_640.jpg"
+            />
+            
+          
+          </div>
+          
+      
+                  
+          <div
+            class="location-info"
+          >
+            
+                      
+            <h2
+              class="header-with-background"
+            >
+              Fun Facts about Ottawa
+            </h2>
+            
+                      
+          
+            <ul
+              class="fun-facts"
+            >
+              
+              
+              <li>
+                Ottawa is located in Canada within the region of North America and subregion of Ontario
+              </li>
+              
+              
+              <li>
+                Its capital is Ottawa
+              </li>
+              
+              
+              <li>
+                Its total population is 37742154
+              </li>
+              
+              
+              <li>
+                Its currency is Canadian dollar and its symbol is $
+              </li>
+              
+              
+              <li>
+                Local language spoken is English/French and its native name is English/French
+              </li>
+              
+          
+            </ul>
+            
+      
+                      
+            <h2
+              class="header-with-background"
+            >
+              Today's weather at Ottawa
+            </h2>
+            
+                      
+              
+            <div
+              class="weather-item"
+            >
+              
+                  
+              <div
+                class="weather-item-data"
+              >
+                
+                      
+                <div
+                  class="temp"
+                >
+                  
+                          
+                  <div
+                    class="label"
+                  >
+                    High
+                  </div>
+                  
+                          
+                  <div
+                    class="value"
+                  >
+                    -6.8 
+                    <span
+                      class="celcius"
+                    >
+                      ℃
+                    </span>
+                  </div>
+                  
+                      
+                </div>
+                
+                      
+                <div
+                  class="temp"
+                >
+                  
+                          
+                  <div
+                    class="label"
+                  >
+                    Low
+                  </div>
+                  
+                          
+                  <div
+                    class="value"
+                  >
+                    -10.7 
+                    <span
+                      class="celcius"
+                    >
+                      ℃
+                    </span>
+                  </div>
+                  
+                      
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="weather-item-desc"
+              >
+                
+                      
+                <span>
+                  Clear Sky
+                </span>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+          
+                  
+          </div>
+          
+              
+        </div>
+        
+              
+        <h2
+          class="forecasted-weather-header"
+        >
+          Forecasted Weather for next 16 days
+        </h2>
+        
+      
+        <div
+          class="forecasted-weather"
+        >
+          
+          
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-18
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -6.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -10.7 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Clear Sky
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-19
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -1.4 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -11.2 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Broken clouds
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-20
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  1.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -3.1 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Snow
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-21
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  1.2 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -3.4 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Broken clouds
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-22
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -0.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -8.5 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Overcast clouds
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-23
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  2.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -2.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Broken clouds
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-24
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -1 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -15.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Snow
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-25
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -15 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -19.3 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Heavy Snow
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-26
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -12.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -20.6 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Overcast clouds
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-27
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -7.4 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -19.8 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Few clouds
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-28
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -5.5 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -12.1 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Clear Sky
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-29
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -3.5 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -12.3 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Broken clouds
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-30
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -11.7 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -21.7 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Clear Sky
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2020-12-31
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -5.4 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -13.4 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Scattered clouds
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2021-01-01
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -3.5 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -12.3 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Overcast clouds
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+           
+              
+          <div
+            class="weather-item"
+          >
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                2021-01-02
+              </span>
+              
+              
+            </div>
+                                        
+              
+            <div
+              class="weather-item-data"
+            >
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  High
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -11.7 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+                  
+              <div
+                class="temp"
+              >
+                
+                      
+                <div
+                  class="label"
+                >
+                  Low
+                </div>
+                
+                      
+                <div
+                  class="value"
+                >
+                  -22.1 
+                  <span
+                    class="celcius"
+                  >
+                    ℃
+                  </span>
+                </div>
+                
+                  
+              </div>
+              
+              
+            </div>
+            
+              
+            <div
+              class="weather-item-desc"
+            >
+              
+                  
+              <span>
+                Scattered clouds
+              </span>
+              
+              
+            </div>
+            
+          
+          </div>
+          
+          
+      
+        </div>
+         
+          
+      </div>
+      
+      
+    </div>
+    
+        
+  </div>
+    
+    
+</body>
+`;

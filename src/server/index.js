@@ -55,5 +55,5 @@ app.get("/placeimage", async function (req, res) {
 
 // designates what port the app will listen to for incoming requests
 app.listen(3000, function () {
-  console.log("Example app listening on port 3000!");
+  console.log("Travel app listening on port 3000!");
 });

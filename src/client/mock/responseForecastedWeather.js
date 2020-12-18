@@ -121,8 +121,8 @@ export const responseForcasted = {
       symbol: "$",
     },
     language: {
-      name: "English" "French",
-      nativeName: "English" "French",
+      name: "English/French",
+      nativeName: "English/French",
     },
     flag: "https://restcountries.eu/data/can.svg",
   },
