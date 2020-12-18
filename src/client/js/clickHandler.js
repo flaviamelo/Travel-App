@@ -1,7 +1,7 @@
 import moment from "moment";
 import tripItem from "./components/tripItem";
 import loader from "./components/loader";
-import showError from "./components/error";
+import showError from "./components/showError";
 
 const baseUrl = "http://localhost:3000";
 
