@@ -11,7 +11,9 @@ module.exports = {
   output: {
     filename: "[name].[contenthash].js",
     path: path.resolve(__dirname, "dist"),
+    publicPath: "./",
   },
+
   module: {
     rules: [
       {
@@ -27,13 +29,13 @@ module.exports = {
         test: /\.(png|jpe?g|gif)$/i,
         use: [
           {
-            loader: 'file-loader',
+            loader: "file-loader",
             options: {
-              name: '[name].[ext]',
+              name: "[name].[ext]",
             },
           },
-        ]
-      }
+        ],
+      },
     ],
   },
   plugins: [

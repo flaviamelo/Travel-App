@@ -19,3 +19,10 @@ flatpickr("#start-date", {
 
 const button = document.querySelector(".trip-form-button");
 button.addEventListener("click", clickHandler);
+
+if ("serviceWorker" in navigator) {
+  // Use the window load event to keep the page load performant
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/service-worker.js");
+  });
+}
