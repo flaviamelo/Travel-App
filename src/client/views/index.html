@@ -1,107 +1,59 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
-      rel="stylesheet"/>
-    <script src="https://use.fontawesome.com/f21e5638ba.js"></script>
-    <title>Capstone Travel App</title>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <title>Travel App</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo"></div>
+            <div class="navigation">
+                <ul>
+                    <li>Hotels</li>
+                    <li>Flights</li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <h1>Enter a city and a departure date within 15 days. You
+                will receive information and images relevant to the destination city and country.</h1>
+            <div class="trip-form">
+                <div class="form-container">
+                    <div class="form-item">
+                        <label for="destination">My trip to:</label>
+                        <input type="text" id="destination" placeholder="Enter Location">
+                    </div>
+                    <div class="form-item">
+                        <label for="start-date">Departing:</label>
+                        <input type="text" id="start-date" placeholder="DD/MM/YYYY">
+                    </div>
+                    <button class="trip-form-button">
+                        Let's Go!!
+                    </button>
+                </div>
+            </div>
+            <div class="my-trips">
 
-  <body class="container open-sans">
-    <header class="header-container">
-      <nav class="navbar">
-        <div class="logo-container">
-          <img src="../../../assets/logo.png" class="logo" alt="logo travel app"/>
-         </div>
-        <div class="options-menu" id="options-menu">
-          <a href="#" class="text-base item"
-            ><i class="fa fa-plane item-icon" aria-hidden="true"></i>Travels</a
-          >
-          <a href="#" class="text-base item"
-            ><i class="fa fa-h-square item-icon" aria-hidden="true"></i
-            >Hotels</a
-          >
-          <a href="#" class="text-base item"
-            ><i class="fa fa-car item-icon" aria-hidden="true"></i>Car Rental</a
-          >
-        </div>
-      </nav>
-    </header>
+            </div>
+        </main>
+        <footer>
+            <p><em>Made by Flavia Barreto &#169; 2020.</em></p>
+        </footer>
 
-    <main class="main-container">
-      <section class="section-container">
-          <form method="POST" class="form-row">
-          <div class="row-input text-base">
-            <label for="">Trip to:</label>
-            <input
-              type="text"
-              class="input-form open-sans"
-              name="location"
-              id="location"
-              placeholder="Destination City"
-            />
-          </div>
-          <div class="row-input-md text-base">
-            <label for="departure-date">Date: </label>
-            <input
-              type="date"
-              class="input-form open-sans"
-              name="date"
-              id="date"
-            />
-          </div>
-          <button type="submit" id="submit" class="btn-form open-sans">
-            Search
-          </button>
-        </form>
-      </section>
-      <section class="tripResult">
-        <div id="result">
-            <span class="text-lg open-sans">Desired destinations result:</span>
-          </div>
-          <div id="trip"></div>
-      </section>
-    </main>
+        <script>
 
-    <footer class="footer-container bg-footer">
-      <p class="text-base text-center">
-        <i>Copyright 2020 by Flavia Barreto - Last Project Of Nanodegree - Udacity</i>
-      </p>
-      <div class="social">
-        <a
-          href="https://www.facebook.com/flavia.melo.148/"
-          target="_blank"
-          ><i
-            class="fa fa-facebook-square icon-social text-lg"
-            aria-hidden="true"
-          ></i
-        ></a>
-        <a href="https://www.instagram.com/flaviamelo13/?hl=pt" target="_blank"
-          ><i class="fa fa-instagram icon-social text-lg" aria-hidden="true"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/flaviabarreto/"
-          target="_blank"
-          ><i
-            class="fa fa-linkedin-square icon-social text-lg"
-            aria-hidden="true"
-          ></i
-        ></a>
-      </div>
-    </footer>
-
-    <script>
-
-      // Check that service workers are supported
-      if ('serviceWorker' in navigator) {
-                  // Use the window load event to keep the page load performant
-                  window.addEventListener('load', () => {
-                      navigator.serviceWorker.register('/service-worker.js');
-                  });
-              } 
-  
-          </script>
-  </body>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                        // Use the window load event to keep the page load performant
+                        window.addEventListener('load', () => {
+                            navigator.serviceWorker.register('/service-worker.js');
+                        });
+                    } 
+        
+        </script>
+    </body>
 </html>
